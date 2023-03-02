@@ -1,0 +1,19 @@
+#Include <stdio.h
+
+/**
+ * main - test how pointers works
+ *
+ * Return: Always 0 (success)
+ */
+int main (void)
+{
+	int age =25
+	int *ptr_of_age = &age;
+
+	printf("%d\n", age);
+	printf("%p\n", ptr_of_age);
+	printf("%p\n", &ptr_of_age);
+
+	return (0);
+
+}
